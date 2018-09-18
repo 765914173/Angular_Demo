@@ -1,0 +1,56 @@
+<div class="login container">
+  <div class="row">
+    <div class="login_left col-lg-4 col-lg-offset-2">
+      <div class="col-lg-12">
+        <div class="page-header">
+          <h1>Welcome & Login</h1>
+        </div>
+        <form role="form">
+          <div class="form-group col-lg-10 col-lg-offset-1">
+            <label for="username">Account :</label>
+            <input type="text" class="form-control glyphicon glyphicon-pencil" placeholder="Username, E-mail"
+              [(ngModel)]="user" name="user">
+          </div>
+          <div class="form-group col-lg-10 col-lg-offset-1">
+            <label for="password">Password :</label>
+            <input type="{{change}}" class="form-control" placeholder="Password" [(ngModel)]="pass" name="pass">
+            <div class="icon">
+              <span class="{{open}}" (click)="showPass()"></span>
+            </div>
+          </div>
+          <div class="form-group col-lg-10 col-lg-offset-1">
+            <a [routerLink]="[ '/user/registed' ]" routerLinkActive="active">Without Account ? Registed Right Now </a>
+          </div>
+          <div class="checkbox col-lg-10 col-lg-offset-1">
+            <label>
+              <input type="checkbox" checked>
+              Remember Me
+            </label>
+          </div>
+          <div class="login_button form-group col-lg-10  col-lg-offset-1">
+            <div class="col-lg-5 col-lg-12">
+              <button class="btn-success" (click)="login()">
+                <span class="glyphicon glyphicon-ok"></span>
+                Sign in
+              </button>
+            </div>
+            <div class="col-lg-2">
+              <div class=" col-lg-12">
+
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <button class="btn-danger" (click)="clear()">
+                <span class="glyphicon glyphicon-remove"></span>
+                Cancel
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="login_right col-lg-6">
+
+    </div>
+  </div>
+</div>

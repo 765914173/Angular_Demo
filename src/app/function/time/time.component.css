@@ -1,0 +1,62 @@
+.time {
+  background-color: beige;
+}
+
+.header {
+  background: url('../../../assets/img/img1.jpg')
+}
+
+.header-left {
+  /* background-color: aqua; */
+}
+
+.header-right {
+  /* background-color: blueviolet; */
+}
+
+.header-right-top {
+  /* background-color: black; */
+}
+
+.header-right-top a {
+  /* background-color: black; */
+  float: left;
+  margin-right: 10px;
+}
+
+.header-right-bottom {
+  /* background-color: white; */
+}
+
+/* information and button */
+.info-button {
+  margin-top: 5px;
+}
+
+.name {
+  background-color: beige;
+}
+
+.select {
+  background-color: black;
+}
+
+.status {
+  background-color: white;
+}
+
+info-button button {
+  float: left;
+}
+
+/* error message */
+
+
+/* time table */
+.table thead tbody{
+  text-align: center;
+}
+
+.table-tab1 {
+  width: 25%;
+}
