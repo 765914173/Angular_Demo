@@ -1,7 +1,0 @@
-<p>
-  ckeditor works!
-</p>
-<div>
-  <ckeditor [(ngModel)]="mycontent" #myCkeditor [congif]="ckeConfig" debounce="500" (change)="onChange($event)"></ckeditor>
-  <div [innerHTML] = "mycontent"></div>
-</div>
