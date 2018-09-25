@@ -9,13 +9,10 @@ import { CKEditorComponent } from 'ng2-ckeditor';
 })
 export class ExpenseComponent implements OnInit {
 
-  text1: string;
-
-  constructor(public ckeditor: CKEditorComponent) {
+  constructor(public ckec: CKEditorComponent) {
   }
 
   ngOnInit() {
-    this.text1 = null;
   }
 
 }

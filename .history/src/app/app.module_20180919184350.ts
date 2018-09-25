@@ -11,8 +11,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { IndexModule } from './index/index.module';
 import { UserModule } from './user/user.module';
 import { FunctionModule } from './function/function.module';
-import { CKEditorModule } from 'ng2-ckeditor';
+import { CKEditorModule, CKEditorComponent } from 'ng2-ckeditor';
 
+import { CkeditorComponent } from './myComponent/ckeditor/ckeditor.component';
 
 
 
@@ -24,6 +25,8 @@ import { CKEditorModule } from 'ng2-ckeditor';
     HomeComponent,
     UserComponent,
     DashboardComponent,
+    CKEditorComponent,
+    CkeditorComponent
   ],
   imports: [
     BrowserModule,
